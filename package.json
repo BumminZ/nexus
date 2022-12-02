@@ -1,0 +1,37 @@
+{
+  "name": "nexus",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Coding test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BumminZ/nexus.git"
+  },
+  "keywords": [
+    "nexus",
+    "api-server"
+  ],
+  "author": "Aung Tay Zar Maung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BumminZ/nexus/issues"
+  },
+  "homepage": "https://github.com/BumminZ/nexus#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "joi": "^17.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
